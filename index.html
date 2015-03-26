@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bootstrap Tutorial</title>
+        <meta charset="utf-8"> 
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        
+    </head>
+    
+    <body>
+    
+    <div class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+           <div class="navbar-header">
+    
+            <a href="#" class="navbar-brand">Tech Site</a>
+            
+            <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div> 
+            
+            <div class="collapse navbar-collapse navHeaderCollapse">
+                
+                <ul class="nav navbar-nav navbar-right">
+                
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li class="dropdown">
+                        
+                        
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Social Media <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Google+</a></li>
+                            <li><a href="#">Instagram</a></li>
+                        </ul>
+                    
+                    </li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#contact" data-toggle="modal">Contact</a></li>
+                
+                </ul>
+             
+            </div>
+        
+        </div> 
+        
+        </div>
+        
+        <div class="container">
+            
+            <div class="jumbotron">
+                <h1 class="text-center">Hello world!
+                <p>As a best practice, we highly recommend using the button element whenever possible to ensure matching cross-browser rendering.</p>
+                <a class="btn btn-default">Watch Now!</a>
+                <a class="btn btn-info">Tweet It!</a>
+                </h1>
+            </div>
+             
+            <div class="container">
+                
+            <div class="row">
+                 
+                <div class="col-md-3">
+                
+                    <h3><a href="#">500 € Gaming PC build</a></h3>
+                    <p>Lorem Ipsum je slepi tekst, ki se uporablja pri razvoju  tipografij in pri pripravi za tisk. Lorem Ipsum je v uporabi že več kot petsto let saj je to kombinacijo znakov neznani tiskar združil v vzorčno knjigo že v začetku 16. stoletja.</p>
+                    <a href="#" class="btn btn-default">Preberi več</a>
+                    
+                    
+                </div>
+                
+                <div class="col-md-3">
+                
+                    <h3><a href="#">500 € Gaming PC build</a></h3>
+                    <p>Lorem Ipsum je slepi tekst, ki se uporablja pri razvoju  tipografij in pri pripravi za tisk. Lorem Ipsum je v uporabi že več kot petsto let saj je to kombinacijo znakov neznani tiskar združil v vzorčno knjigo že v začetku 16. stoletja.</p>
+                    <a href="#" class="btn btn-default">Preberi več</a>
+                    
+                    
+                </div>
+                
+                <div class="col-md-3">
+                
+                    <h3><a href="#">500 € Gaming PC build</a></h3>
+                    <p>Lorem Ipsum je slepi tekst, ki se uporablja pri razvoju  tipografij in pri pripravi za tisk. Lorem Ipsum je v uporabi že več kot petsto let saj je to kombinacijo znakov neznani tiskar združil v vzorčno knjigo že v začetku 16. stoletja.</p>
+                    <a href="#" class="btn btn-default">Preberi več</a>
+                    
+                    
+                </div>
+                
+                <div class="col-md-3">
+                
+                    <h3><a href="#">500 € Gaming PC build</a></h3>
+                    <p>Lorem Ipsum je slepi tekst, ki se uporablja pri razvoju  tipografij in pri pripravi za tisk. Lorem Ipsum je v uporabi že več kot petsto let saj je to kombinacijo znakov neznani tiskar združil v vzorčno knjigo že v začetku 16. stoletja.</p>
+                    <a href="#" class="btn btn-default">Preberi več</a>
+                    
+                    
+                </div>
+                 
+            </div>
+            
+        
+        </div>
+        
+        <div class="navbar navbar-default navbar-fixed-bottom">
+        <div class="container">
+            <p class="navbar-text pull-left">Site build by Marko Velkavrh</p>
+            <a href="http://www.smartninja.org/about" class="navbar-btn btn-danger btn pull-right">Subscribe on SmartNinja</a>
+        </div>
+          
+        <div class="modal fade" id="contact" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <form class="form-horizontal">
+                        <div class="modal-header">
+                            <h4>Contact Tech Site</h4>
+                        </div>
+                        <div class="modal-body">
+                        
+                            <div class="form-group">
+                            
+                                <label for="contact-name" class="col-lg-2 control-label">Name:</label>
+                                <div class="col-lg-10">
+                                    
+                                    <input type="text" class="form-control" id="contact-name" placeholder="Full Name">
+                                
+                                </div>
+                            </div>
+                        
+                            <div class="form-group">
+                            
+                                <label for="contact-email" class="col-lg-2 control-label">Email:</label>
+                                <div class="col-lg-10">
+                                    
+                                    <input type="email" class="form-control" id="contact-email" placeholder="Your Email">
+                                
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                            
+                                <label for="contact-msg" class="col-lg-2 control-label">Message:</label>
+                                <div class="col-lg-10">
+                                    
+                                    <textarea class="form-control" rows="8"></textarea>
+                                
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="modal-footer">
+                            <a class="btn btn-default" data-dismiss="modal">Close</a>
+                            <button class="btn btn-primary" type="submit">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>  
+        
+        </div>
+            
+    </div>
+     
+</body>
+</html>
